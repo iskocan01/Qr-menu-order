@@ -9,3 +9,4 @@ Bu şekilde masaden gelen siparişleri görebiliriz.
 Genel masa görüntüsünde siparişi olan masaların ne zaman açıldığı , Toplam masa tutarı,  masa numarası , masa kapatma buttonu ve siparişleri gösterme buttonumuz bulunmakta.
 ![image](https://github.com/iskocan01/Qr-menu-order/assets/116522309/b82370e6-b012-4ee9-ac81-de748aba8f82)
 Şipariş görüntülendiği zaman masadaki gelen siparişleri görebiliriz. masayı kapatmadan aynı masan başka sipariş geldiğinde farklı sipariş olarak aynı maasya eklenecektir.
+hasanın eklediği cümle bu
