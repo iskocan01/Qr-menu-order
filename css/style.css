@@ -1,0 +1,330 @@
+body{
+	background-color: #ececec;
+}
+
+
+/*Burası navigasyon css başlangıcıdır ********/
+ #container-nav{
+    position: sticky; 
+
+     
+ }
+
+
+#navigation {
+    overflow-x: hidden;
+    padding: 5px;
+    margin: 0;
+    white-space: nowrap;
+    position: relative;
+     background-color: white;
+
+}
+ #navigation .active {
+    background-color: #323E3E  ; 
+    color: #fff;
+  }
+#navigation a {
+     
+    color:black;
+    
+    margin: 0 4px  0 4px; 
+   
+    padding: 1%; 
+    border-radius: 9px;
+    cursor: pointer;
+    
+     
+}
+
+#navigation ul {
+     transition: transform 0.3s ease-in-out;
+     padding-left: 50px;
+     padding-right: 25px;
+
+}
+
+#navigation button {
+    z-index: 5;
+    position: absolute;
+    top: 40%;
+    transform: translateY(-50%);
+    background: #ececec;
+    border: 1px solid #fff;
+    padding: 5px 5px;
+    border-radius: 9px;
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+     
+  }
+  
+  #navigation button.prev {
+    left: 2px;
+  }
+  
+  #navigation button.next {
+    right: 2px;
+  }
+
+
+#navigation ul li {
+  display: inline-block;
+  margin-right: 20px;
+  font-size: 18px;
+}
+
+#navigation ul li a {
+  color: #000;
+  text-decoration: none; 
+  padding: 10px;
+  display: block;
+}
+
+#food-nav .back-image{
+    
+     background-position: left center; 
+      background-repeat: no-repeat;
+      background-size: cover;
+    height:100px;
+      
+     
+    border-radius: 10px;
+     
+}
+#food-nav .back-image h2{
+     
+    left: 0;
+    font-weight: bold;
+    margin-top: 0;
+    margin-left: -12px;
+    width: 103%;
+    position: static;  
+    
+    padding: 10px;
+    bottom: 0; 
+     
+}
+
+
+ /*Burası navigasyon css Bitişidir *** ********/
+
+
+
+ /*Burası liste kartlarının bulunduğu yerdi**********************************************************************************r*/
+
+.body-cart{
+    display: flex;
+    padding: 20px 35px;
+    align-items: center;
+    justify-content: center;
+     
+    background-color: #343f4f;
+}
+
+ .wrapper{
+    max-width: 1200px;
+    position: relative;
+ }
+ .wrapper i{
+    text-align: center;
+    top: 50%;
+    height: 46px;
+    width: 46px;
+    cursor: pointer;
+    position: absolute;
+    font-size: 2.2rem;
+    list-style: none;
+    line-height: 46px;
+
+    background-color: #fff;
+    border-radius: 50%;
+    transform: translateY(-50%);
+ }
+
+ .wrapper i:first-child{
+    left: -23px;
+    z-index: 1;
+ }
+ .wrapper i:last-child{
+    right: -23px;
+ }
+
+
+ .wrapper .carousel{
+    font-size: 0;
+    cursor: pointer;
+    overflow: hidden;
+    white-space: nowrap;
+    display: flex;
+ 
+    scroll-behavior: smooth;
+
+ }
+ .carousel a {
+    margin-left: 14px;
+    align-items: center;
+
+     flex: 0 0 calc(97% / 3);
+
+ }
+ .carousel a:first-child {
+    margin-left: 0px;
+ }
+
+ .carousel .img h2 {
+
+      position: absolute; /* H2 etiketini içeriğin üzerine pozisyonlandır */
+      bottom: 0; /* Alttan 0 uzaklıkta */
+      width: calc(97% / 3);
+      height: 17%;
+      border-radius: 0 0 15px 15px ;
+      margin: 0; /* Varsayılan kenar boşluklarını kaldır */
+      text-align: center;
+      padding: 10px; /* İstediğiniz dolgu miktarını ayarlayın */
+      background-color: rgba(0, 0, 0, 0.5); /* Opsiyonel: Arkaplan rengi */
+      color: white; /* Opsiyonel: Metin rengi */
+    }
+
+    .carousel .img div {
+
+      position: absolute; /* H2 etiketini içeriğin üzerine pozisyonlandır */
+      top: 0; /* Alttan 0 uzaklıkta */
+      border-top-left-radius: 15px;
+      width: calc(97% / 6);
+      height: 83%;
+      
+      margin: 0; /* Varsayılan kenar boşluklarını kaldır */
+       
+      padding: 10px; /* İstediğiniz dolgu miktarını ayarlayın */
+      background-color: rgba(0, 0, 0, 0.5); /* Opsiyonel: Arkaplan rengi */
+      color: white; /* Opsiyonel: Metin rengi */
+    }
+    .carousel .img div p{
+        color: white;
+
+
+    }
+
+ .carousel .img{
+    display: flex;
+
+    height: 340px;
+    margin-left: 14px;
+     border-radius: 15px;
+      overflow: hidden;
+ background-color: red;
+  transition: transform 0.3s ease-in-out;
+ }
+
+ .carousel .img img{
+    
+     
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    
+    
+ }
+
+ .carousel .img:first-child{
+    margin-left: 0px;
+ }
+
+
+
+
+ .category-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 20px 0;
+}
+.category-item {
+  width: 150px;
+  margin: 10px;
+  text-align: center;
+}
+.category-item a {
+  display: block;
+  padding: 10px;
+  background-color: #f2f2f2;
+  border-radius: 5px;
+  color: #333;
+  text-decoration: none;
+}
+.category-item a:hover {
+  background-color: #ddd;
+}
+ /*Burası liste kartlarının bulunduğu yerin bitişidir */
+
+
+.img-responsive{
+    width: 100%;  
+    
+}
+
+.categories{
+	 
+}
+.categories .box-3{
+	position: relative;
+	width: 33%;
+	float: left;
+	 
+	padding: 2%;
+}
+
+.categories .box-3 img{
+	width: 100%;
+}
+.categories .box-3 h3{
+ 
+	position: absolute;
+	display: block;
+	left: 0;
+	bottom: 0;
+	text-align: center;
+	 background: rgb(56,62,66);
+background: -moz-linear-gradient(0deg, rgba(56,62,66,1) 0%, rgba(56,62,66,0) 100%);
+background: -webkit-linear-gradient(0deg, rgba(56,62,66,1) 0%, rgba(56,62,66,0) 100%);
+background: linear-gradient(0deg, rgba(56,62,66,1) 0%, rgba(56,62,66,0) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#383e42",endColorstr="#383e42",GradientType=1);
+    padding-top: 100px;
+    padding-bottom: 5px;
+	align-items: center;
+	width: 88%;
+	margin-left: 6%;
+	 
+}
+
+.social{
+	 
+}
+.social li {
+	display: inline;
+}
+
+
+@media screen and (max-width:900px){
+    .carousel img{
+        width: calc(100%/2);
+    }
+}
+
+@media screen and (max-width:550px){
+    .carousel img{
+        width: 100%;
+    }
+}
+
+/* Mobil cihazlarda kategorileri alt alta sırala */
+@media (max-width: 768px) {
+    .categories .box-3 {
+        width: 100%;
+        margin-right: 0;
+        float: none;
+        clear: both;
+        color: red;
+    }
+}

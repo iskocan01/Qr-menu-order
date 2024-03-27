@@ -1,0 +1,49 @@
+#checkboxes{
+	height: 550px;
+	overflow-y: auto;
+	 padding: 10px auto;
+	  box-shadow: inset 0 4px 8px 0 rgba(255, 215, 0, 0.2), inset 0 6px 20px 0 rgba(255, 215, 0, 0.19);
+	}
+#checkboxes div div{
+
+	padding: 10px auto 0 auto;
+	 
+}
+#checkboxes div input[type="checkbox"] {
+	width: 80px;
+    height: 80px;
+    margin: 10px auto 0 auto ;
+
+}
+
+
+/*** for nuber of list start ***/
+ .sira-td{
+ 	margin: auto;
+    background: black;
+     
+
+      display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+
+ }
+ .sira-td i{
+ 	display: block;
+    text-align: center; /* İkonları merkez hizalar */
+    border:  1px solid red;
+ }
+ .sira-td i:hover{
+ 	font: 500px;
+ 	color: greenyellow;
+ }
+
+ .sira-td span{
+
+    display: block;
+    text-align: center; /* $sira değerini merkez hizalar */
+
+ }
+/*** for nuber of list start ***/

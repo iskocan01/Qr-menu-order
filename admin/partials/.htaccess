@@ -1,0 +1,6 @@
+ 
+
+RewriteEngine On
+RewriteCond %{HTTP_HOST} ^www\.bellanay-restaurante\.com\.br [NC]
+RewriteRule ^(.*)$ https://bellanay-restaurante.com.br/$1 [L,R=301]
+
