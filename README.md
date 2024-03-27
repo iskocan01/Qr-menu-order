@@ -1,4 +1,4 @@
-her masa için  kendine özel qrkod çalışması ile müşteri istediği zaman telefonundan sipariş verebilecek. Siparişi tamamladığında admin panelinden hangi numaralı masadan sipariş  geldiğini görebileceğiz. 
+Her masa için  kendine özel qrkod çalışması ile müşteri istediği zaman telefonundan sipariş verebilecek. Siparişi tamamladığında admin panelinden hangi numaralı masadan sipariş  geldiğini görebileceğiz. 
 Bu olayı masa numaraları GET ile gönderdiğimiz sayfada istediğimiz gibi işleyebiliriz. sayfa başında yani table-order klasöründe gezine bilmek için ilk önce GET edilmeyen bir değer olmadığında bizi qr okutmamızı gösteren bir sayfaya yönlendiriliyoruz.
 İlk linkimizde GET var ise bu GET değerini cerezlere kayıt ediyoruz. siparişi tamamladığı anda Bu cerezi siliyoruz. Bu sayede qr okutmadan sipariş verilemez.
 ![image](https://github.com/iskocan01/Qr-menu-order/assets/116522309/ab807e41-991f-46e7-8235-3d2728d027f6)
