@@ -33,7 +33,7 @@ Kategori kısmına tıklayarak yeni kategori ekleyebilir ve güncelleyebilirsini
 ![image](https://github.com/iskocan01/Qr-menu-order/assets/116522309/0884f5e0-f8b2-48f2-8d15-cb253cd31b42)
 Yeni kategori ekleyetıklayıp kategori ismini ve resmini seçebilirsiniz.
 
-
+Check the prorject online http://bellanay-restaurante.com.br/
 
 
 
